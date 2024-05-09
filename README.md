@@ -1,2 +1,1 @@
-# math001
-# math001
+// This program comprises basic HTML and JavaScript code designed to generate a website enabling users to multiply two numbers. Through working with it, I've enhanced my comprehension of parsing techniques, effectively setting and recalling variables across different sections of the code, as well as employing style tags to enhance the visual appeal of websites.
