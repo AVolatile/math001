@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Program</title>
+</head>
+
+<body style="background-color: rgb(209, 233, 242);">
+
+    <!-- Title -->
+    <center>
+        <h2 style="color: crimson">Simple Multiplication</h2>
+        <h4 style="color: rgb(15, 102, 122)">Input two numbers and multiply them:</h4>
+        <!-- Input box for first number -->
+        <label for="numberOne" style="color: crimson">Enter first number:</label>
+        <input type="number" id="numberOne"><br><br>
+        <!-- Input box for second number -->
+        <label for="numberTwo" style="color: crimson">Enter the second number:</label>
+        <input type="number" id="numberTwo"><br><br>
+        <!-- Button to run the program in js -->
+        <button onclick="multiplyNumbers()"
+            style="color: rgb(255, 255, 255); background-color: crimson;">Multiply</button>
+        <div id="result"></div>
+        <!-- Input box for addition -->
+        <label for="addNumberOne" style="color: crimson">Enter first number for addition:</label>
+        <input type="number" id="addNumberOne"><br><br>
+        <label for="addNumberTwo" style="color: crimson">Enter the second number for addition:</label>
+        <input type="number" id="addNumberTwo"><br><br>
+        <button onclick="addNumbers()" style="color: rgb(255, 255, 255); background-color: crimson;">Add</button>
+        <div id="addResult"></div><br><br>
+        <!-- Input box for subtraction -->
+        <label for="subNumberOne" style="color: crimson">Enter first number for subtraction:</label>
+        <input type="number" id="subNumberOne"><br><br>
+        <label for="subNumberTwo" style="color: crimson">Enter the second number for subtraction:</label>
+        <input type="number" id="subNumberTwo"><br><br>
+        <button onclick="subtractNumbers()"
+            style="color: rgb(255, 255, 255); background-color: crimson;">Subtract</button>
+        <div id="subResult"></div>
+    </center>
+
+</body>
+<script src="math002.js"></script>
+
+</html>
